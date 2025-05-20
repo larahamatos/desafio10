@@ -54,3 +54,20 @@
             if (vetor[x] % 2 == 0) {
 
                 System.out.println("vetor[" + x + "]=" + vetor[x]);
+```
+# questao5
+```java
+        Scanner ler = new Scanner(System.in);
+        int[] vetor = new int[10];
+
+        for (int x = 0; x < vetor.length; x++) {
+            System.out.println("Digite um número: ");
+            vetor[x] = ler.nextInt();
+
+        }
+        System.out.println("\nNúmeros ÍMPARES");
+        for (int x = 0; x < vetor.length; x++) {
+
+            if (vetor[x] % 2 != 0) {
+
+                System.out.println("vetor[" + x + "]=" + vetor[x]);
